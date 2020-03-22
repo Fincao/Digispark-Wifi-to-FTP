@@ -28,7 +28,7 @@
 
 
 <p align="center">
- ⚠️Important⚠️
+ ⚠️<b>Important</b>⚠️
 </p>
 
 O script faz backup de todas as senhas de WI-Fi em formato .XML
