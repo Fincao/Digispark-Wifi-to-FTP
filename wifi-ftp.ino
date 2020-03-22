@@ -26,7 +26,7 @@ while (lled < 3) {
   DigiKeyboard.print("powershell Start-Process cmd -Verb runAs");
   DigiKeyboard.delay(50);
   DigiKeyboard.sendKeyStroke(KEY_ENTER);
-  DigiKeyboard.delay(3300);  //Demora um tempo maior para garantir acesso ao CMD como administrador.
+  DigiKeyboard.delay(3700);  //Demora um tempo maior para garantir acesso ao CMD como administrador.
   DigiKeyboard.sendKeyStroke(KEY_ARROW_LEFT);
   DigiKeyboard.delay(60);
   DigiKeyboard.sendKeyStroke(KEY_ENTER);
