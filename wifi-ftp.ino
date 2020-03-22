@@ -5,28 +5,20 @@ void setup() {
   pinMode(1, OUTPUT);      //LED no modelo A ou Pro.
 
 //Pisca o led 3 vezes alertando o inicio do script.
+int lled = 0;
+while (lled < 3) {
   digitalWrite(0, HIGH);   // Acende o LED.
   digitalWrite(1, HIGH);
   delay(200);              // Tempo de intervalo entre aceso e apagado do led.
   digitalWrite(0, LOW);    // Apaga o LED.
   digitalWrite(1, LOW); 
   delay(200);
-  digitalWrite(0, HIGH);   // Acende o LED.
-  digitalWrite(1, HIGH);
-  delay(200);              // Tempo de intervalo entre aceso e apagado do led.
-  digitalWrite(0, LOW);    // Apaga o LED.
-  digitalWrite(1, LOW); 
-  delay(200);
-  digitalWrite(0, HIGH);   // Acende o LED.
-  digitalWrite(1, HIGH);
-  delay(200);              // Tempo de intervalo entre aceso e apagado do led.
-  digitalWrite(0, LOW);    // Apaga o LED.
-  digitalWrite(1, LOW); 
-
+  lled++;
+}
 
 //Começo do script!
   
- DigiKeyboard.sendKeyStroke(0);
+  DigiKeyboard.sendKeyStroke(0);
   DigiKeyboard.delay(1800); 
 //Executa o CMD como admin +~- 4sec.
   DigiKeyboard.sendKeyStroke(KEY_R, MOD_GUI_LEFT);
@@ -125,23 +117,16 @@ void setup() {
   DigiKeyboard.delay(10);
 
 //Pisca o led 3 vezes alertando a conclusão o script.
-  digitalWrite(0, HIGH);    // Acende o LED.
+int lled2 = 0;
+while (lled2 < 3) {
+  digitalWrite(0, HIGH);   // Acende o LED.
   digitalWrite(1, HIGH);
-  delay(200);               // Tempo de intervalo entre aceso e apagado do led.
-  digitalWrite(0, LOW);     // Apaga o LED.
+  delay(200);              // Tempo de intervalo entre aceso e apagado do led.
+  digitalWrite(0, LOW);    // Apaga o LED.
   digitalWrite(1, LOW); 
   delay(200);
-  digitalWrite(0, HIGH);    // Acende o LED.
-  digitalWrite(1, HIGH);
-  delay(200);               // Tempo de intervalo entre aceso e apagado do led.
-  digitalWrite(0, LOW);     // Apaga o LED.
-  digitalWrite(1, LOW); 
-  delay(200);
-  digitalWrite(0, HIGH);    // Acende o LED.
-  digitalWrite(1, HIGH);
-  delay(200);               // Tempo de intervalo entre aceso e apagado do led.
-  digitalWrite(0, LOW);     // Apaga o LED.
-  digitalWrite(1, LOW); 
+  lled2++;
+}
   
 }
 
