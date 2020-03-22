@@ -16,7 +16,7 @@
 </p>
 <br>
 
-## features 
+## Features 
 - [x] Alerta visual de inicio e conclusão do Script por LED.
 - [x] Win7, Win Vista, Win8, Win8.1, Win10.
 - [x] UAC Bypass.
