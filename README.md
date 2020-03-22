@@ -19,7 +19,7 @@
  <img alt="digispark" src="https://github.com/Fincao/Digispark-Wifi-to-FTP/blob/master/img/digispart-represent.png" width="209px">
 </p>
 <p align="center" font size="3">
-  <b>Digispark executando comandos como se fosse um teclado fisico, "Rubber Duck"🐤.</b>
+  <b>Placa Digispark ATtiny85 enviará comandos como se fosse um teclado fisico, "Rubber Duck"🐤.</b>
 </p>
 <br>
 
