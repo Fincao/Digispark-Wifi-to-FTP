@@ -3,7 +3,7 @@
 
 <br>
 
- 🔑 Script para envia por FTP todas as senhas de Wi-Fi cadastradas no computador em segundos, utilizando a placa de desenvolvimento baseada no microcontrolador Attiny85.
+🔑 Script para envia por FTP todas as senhas de Wi-Fi cadastradas no computador com Windows em segundos, utilizando a placa de desenvolvimento baseada no microcontrolador Attiny85.
 
 <br>
 <br>
@@ -18,6 +18,7 @@
 
 ## features 
 - [x] Alerta visual de inicio e conclusão do Script por LED.
+- [x] Win7, Win Vista, Win8, Win8.1, Win10.
 - [x] UAC Bypass.
 - [x] Todas as Senhas/Usuario de WI-FI no histórico do PC.
 
