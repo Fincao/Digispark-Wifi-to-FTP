@@ -8,13 +8,8 @@
 ![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)
 ![GitHub repo size](https://img.shields.io/github/repo-size/Fincao/Digispark-Wifi-to-FTP)
 
-
-<br>
-
 🔑 Script para envia por FTP todas as senhas de Wi-Fi cadastradas no computador com Windows em segundos, utilizando a placa de desenvolvimento baseada no microcontrolador Attiny85.
 
-<br>
-<br>
 
 <p align="center">
  <img alt="digispark" src="https://github.com/Fincao/Digispark-Wifi-to-FTP/blob/master/img/digispart-represent.png" width="209px">
