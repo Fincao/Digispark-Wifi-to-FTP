@@ -43,7 +43,5 @@ diretório com o fim de ocultar provas de um acesso não autorizado.
 
 ##### Busco melhorar meus conhecimentos a toda hora, e para isso bebo muuuito café 😎 .
 
-<br>
-
-<a href="https://www.buymeacoffee.com/oMW0fT8" target="_blank"><img src="https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png" alt="Buy Me A Coffee" style="height: 41px !important;width: 174px !important;box-shadow: 0px 3px 2px 0px rgba(190, 190, 190, 0.5) !important;-webkit-box-shadow: 0px 3px 2px 0px rgba(190, 190, 190, 0.5) !important;" ></a>
+<a href="https://ko-fi.com/williampedrodeoliveira" target="_blank"><img src="https://github.com/Fincao/Fake-Captive-Portal-ESP8266/blob/master/img/Kofi_Logo_Blue.svg" alt="Pay Me A Coffee" style="height: 41px !important;width: 174px !important;box-shadow: 0px 3px 2px 0px rgba(190, 190, 190, 0.5) !important;-webkit-box-shadow: 0px 3px 2px 0px rgba(190, 190, 190, 0.5) !important;" ></a>
 
