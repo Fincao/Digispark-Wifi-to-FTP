@@ -18,6 +18,8 @@
 </p>
 <br>
 
+![Arduino](https://img.shields.io/badge/Arduino-IDE-green?logo=Arduino&style=flat)
+
 ## Features 
 - [x] Alerta visual de inicio e conclusão do Script por LED.
 - [x] Win7, Win Vista, Win8, Win8.1, Win10.
