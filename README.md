@@ -25,8 +25,6 @@
 - [x] Todas as Senhas/Usuario de WI-FI no histórico do PC.
 
 <br>
-<br>
-<br>
 
  > Os codigos aqui contidos são apenas para estudo e me isento de qualquer uso para dano a si ou a terceiros. Use por sua conta e risco.
 
