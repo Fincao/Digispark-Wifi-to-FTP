@@ -38,6 +38,7 @@ O script faz backup de todas as senhas de WI-Fi em formato .XML
 na raiz "C:/", após isso ele deleta todos os arquivos com .XML nesse
 diretório com o fim de ocultar provas de um acesso não autorizado.
 <b>Caso tenha algum outro arquivo com a terminação em .XML será apagado tambem!</b>
+Ps.: Isso será corrigido Futuramente.
 
 </br>
 
