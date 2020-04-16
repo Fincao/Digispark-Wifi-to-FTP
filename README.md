@@ -28,17 +28,18 @@
 
 <br>
 
- > Os codigos aqui contidos são apenas para estudo e me isento de qualquer uso para dano a si ou a terceiros. Use por sua conta e risco.
-
 <p align="center">
  ⚠️<b>Important</b>⚠️
 </p>
 
-O script faz backup de todas as senhas de WI-Fi em formato .XML
+ 1 -O script faz backup de todas as senhas de WI-Fi em formato .XML
 na raiz "C:/", após isso ele deleta todos os arquivos com .XML nesse
 diretório com o fim de ocultar provas de um acesso não autorizado.
 <b>Caso tenha algum outro arquivo com a terminação em .XML será apagado tambem!</b>
 Ps.: Isso será corrigido Futuramente.
+
+ 2 -  Os codigos aqui contidos são apenas para estudo e me isento de qualquer uso para dano a si ou a terceiros. Use por sua conta e risco.
+
 
 </br>
 
