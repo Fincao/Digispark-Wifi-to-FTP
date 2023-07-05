@@ -24,7 +24,7 @@
 - [x] Alerta visual de inicio e conclusão do Script por LED.
 - [x] Win7, Win Vista, Win8, Win8.1, Win10.
 - [x] UAC Bypass.
-- [x] Todas as Senhas/Usuario de WI-FI no histórico do PC.
+- [x] Todas as Senhas/Redes de WI-FI no histórico do PC.
 
 <br>
 
